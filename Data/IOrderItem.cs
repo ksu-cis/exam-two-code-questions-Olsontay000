@@ -7,6 +7,11 @@ namespace ExamTwoCodeQuestions.Data
     public interface IOrderItem
     {
         /// <summary>
+        /// Gets/sets the fruit filling for the cobbler
+        /// </summary>
+        FruitFilling Fruit { get; set; }
+
+        /// <summary>
         /// Gets the price of the item
         /// </summary>
         double Price { get; }
